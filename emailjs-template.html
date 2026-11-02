@@ -1,0 +1,95 @@
+<div style="font-family: system-ui, sans-serif, Arial; font-size: 12px; background-color: #f9f9f9; padding: 20px;">
+  <div style="max-width: 600px; margin: 0 auto; background-color: white; border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); overflow: hidden;">
+    
+    <!-- Header -->
+    <div style="background: linear-gradient(135deg, #ed1c24 0%, #d63384 100%); padding: 30px; text-align: center; color: white;">
+      <h1 style="margin: 0; font-size: 28px; font-weight: bold;">💖 Xác Nhận Tham Dự Tiệc Cưới 💖</h1>
+      <p style="margin: 10px 0 0 0; font-size: 14px; opacity: 0.9;">Chiến & Liễu</p>
+    </div>
+
+    <!-- Main Content -->
+    <div style="padding: 30px 20px;">
+      <p style="margin: 0 0 20px 0; font-size: 16px; color: #333;">
+        Chúc mừng! Chúng tôi đã nhận được xác nhận tham dự từ một vị khách.
+      </p>
+
+      <!-- Guest Info Box -->
+      <div
+        style="
+          margin: 20px 0;
+          padding: 20px;
+          border-width: 1px 0;
+          border-style: dashed;
+          border-color: #ed1c24;
+          background-color: #fff5f7;
+        "
+      >
+        <table role="presentation" style="width: 100%; border-collapse: collapse;">
+          <tr>
+            <td style="vertical-align: top; padding-right: 15px;">
+              <div
+                style="
+                  padding: 12px;
+                  background-color: #ffe4e9;
+                  border-radius: 8px;
+                  font-size: 32px;
+                  text-align: center;
+                  width: 60px;
+                  height: 60px;
+                  display: flex;
+                  align-items: center;
+                  justify-content: center;
+                "
+              >
+                👤
+              </div>
+            </td>
+            <td style="vertical-align: top;">
+              <div style="color: #ed1c24; font-size: 18px; font-weight: bold; margin-bottom: 8px;">
+                {{guest_name}}
+              </div>
+              <div style="color: #666; font-size: 14px; margin-bottom: 12px;">
+                <strong>Bên:</strong> {{guest_type}}
+              </div>
+              <div style="
+                color: white; 
+                font-size: 16px; 
+                font-weight: bold;
+                padding: 8px 16px;
+                background-color: {{attend_status == 'CÓ THAM DỰ' ? '#28a745' : '#dc3545'}};
+                border-radius: 5px;
+                display: inline-block;
+              ">
+                {{attend_status}}
+              </div>
+            </td>
+          </tr>
+        </table>
+      </div>
+
+      <!-- Wedding Details -->
+      <div style="background-color: #f8f9fa; padding: 15px; border-radius: 8px; margin: 20px 0;">
+        <h3 style="margin: 0 0 15px 0; color: #ed1c24; font-size: 16px;">📅 Thông Tin Tiệc Cưới</h3>
+        <p style="margin: 8px 0; color: #555;"><strong>Ngày:</strong> 15 Tháng 11 2026</p>
+        <p style="margin: 8px 0; color: #555;"><strong>Giờ:</strong> 10:00 - ∞</p>
+        <p style="margin: 8px 0; color: #555;"><strong>Địa điểm:</strong> Tư gia, thôn Minh Hải, xã Tứ Kỳ, Hải Phòng</p>
+      </div>
+
+      <!-- Footer Message -->
+      <div style="margin-top: 20px; text-align: center; border-top: 1px solid #eee; padding-top: 20px;">
+        <p style="color: #666; font-size: 13px; margin: 0;">
+          Cảm ơn bạn đã xác nhận tham dự tiệc cưới của chúng tôi! 🎉
+        </p>
+        <p style="color: #999; font-size: 12px; margin: 10px 0 0 0;">
+          *Của chồng công vợ – Tuy hai mà một, tuy một mà hai*
+        </p>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <div style="background-color: #f5f5f5; padding: 15px; text-align: center; border-top: 1px solid #ddd; font-size: 11px; color: #999;">
+      <p style="margin: 0;">Đám cưới Trung Chiến & Bế Liễu | 15-11-2026</p>
+      <p style="margin: 5px 0 0 0;">© 2026 - Tất cả quyền được bảo lưu</p>
+    </div>
+  </div>
+</div>
